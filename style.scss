@@ -25,3 +25,10 @@ a{
 body{
   background-color: #eaeaea;
 }
+
+
+@media (max-width:1100px){
+  .wrapper{
+    width: 96%;
+  }
+}

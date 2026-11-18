@@ -27,3 +27,15 @@
     align-items: start;
   }
 }
+
+
+@media only screen and (max-width: 480px){
+  .footer{
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+}

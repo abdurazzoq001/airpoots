@@ -28,4 +28,41 @@
   }
 
   margin-top: 30px;
+
+  &__burger{
+    display: none;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+  .navbar{
+    width: 95%;
+    gap: 0px;
+    justify-content: space-between;
+    &__smartphonepick{
+      display: none;
+      width: 0;
+    }
+
+    &__iconsss{
+      display: none;
+      width: 0;
+    }
+
+    &__burger{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    &__hr{
+      width: 20px;
+      background-color: black;
+      border: 0px;
+      height: 3px;
+    }
+  }
 }

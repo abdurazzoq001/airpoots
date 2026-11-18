@@ -90,3 +90,30 @@
     font-size: 17px;
   }
 }
+
+
+@media only screen and (max-width: 480px){
+  .intro{
+    width: 95%;
+
+    &__cards{
+      flex-direction: column;
+      width: 100%;
+    }
+
+    &__card{
+      width: 95%;
+      margin: auto;
+      flex-direction: row;
+    }
+
+    &__image{
+      width: 95%;
+      margin: auto;
+    }
+
+    &__info{
+      flex-direction: column;
+    }
+  }
+}
