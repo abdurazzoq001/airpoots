@@ -1,0 +1,92 @@
+.intro {
+  width: 690px;
+  margin: auto;
+  &__cards {
+    display: flex;
+    width: 700px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  &__p1{
+    font-weight: 700;
+    font-size: 14.5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  &__p2{
+    margin-bottom: 10px;
+  }
+
+  &__card {
+    width: 211px;
+    height: 245px;
+    padding: 12px 13px;
+    background: white;
+    border-radius: 19px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+
+  &__image {
+    width: 150px;
+  }
+
+  &__top {
+    display: flex;
+    align-items: start;
+  }
+
+  &__heart {
+    width: 20px;
+    margin-bottom: 50px;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 8px;
+  }
+
+  &__info h2 {
+    font-size: 11px;
+    font-weight: 600;
+    color: #171717;
+    margin-top: 2px;
+  }
+
+  &__price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2px;
+    color: #ff8a00;
+  }
+
+  &__price p {
+    font-size: 11px;
+  }
+
+  &__price del {
+    font-size: 8px;
+    opacity: 0.7;
+  }
+
+  &__rating {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;
+    font-size: 11px;
+    color: #777;
+  }
+
+  &__rating span {
+    color: #ffbd59;
+    font-size: 17px;
+  }
+}

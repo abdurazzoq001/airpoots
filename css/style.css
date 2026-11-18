@@ -1,0 +1,234 @@
+.navbar {
+  width: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 230px;
+}
+.navbar__left {
+  display: flex;
+  gap: 40px;
+}
+.navbar__smartphonepick {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 300px;
+}
+.navbar__iconsss {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar__QpickIcon {
+  font-weight: 700;
+}
+.navbar {
+  margin-top: 30px;
+}
+
+.intro {
+  width: 690px;
+  margin: auto;
+}
+.intro__cards {
+  display: flex;
+  width: 700px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.intro__p1 {
+  font-weight: 700;
+  font-size: 14.5px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.intro__p2 {
+  margin-bottom: 10px;
+}
+.intro__card {
+  width: 211px;
+  height: 245px;
+  padding: 12px 13px;
+  background: white;
+  border-radius: 19px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.intro__image {
+  width: 150px;
+}
+.intro__top {
+  display: flex;
+  align-items: start;
+}
+.intro__heart {
+  width: 20px;
+  margin-bottom: 50px;
+}
+.intro__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 8px;
+}
+.intro__info h2 {
+  font-size: 11px;
+  font-weight: 600;
+  color: #171717;
+  margin-top: 2px;
+}
+.intro__price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  color: #ff8a00;
+}
+.intro__price p {
+  font-size: 11px;
+}
+.intro__price del {
+  font-size: 8px;
+  opacity: 0.7;
+}
+.intro__rating {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  font-size: 11px;
+  color: #777;
+}
+.intro__rating span {
+  color: #ffbd59;
+  font-size: 17px;
+}
+
+.acsesuars {
+  width: 1100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.acsesuars__banner {
+  display: flex;
+  width: 900px;
+  background-color: #101010;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: auto;
+  border-radius: 30px;
+}
+.acsesuars__h2 {
+  width: 300px;
+  color: white;
+}
+.acsesuars__img {
+  width: 200px;
+}
+.acsesuars__card {
+  width: 211px;
+  height: 245px;
+  padding: 12px 13px;
+  background: white;
+  border-radius: 19px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.acsesuars__img {
+  width: 100px;
+}
+.acsesuars__cards {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.acsesuars__cards12 {
+  display: flex;
+  width: 700px;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.acsesuars__cards22 {
+  display: flex;
+  width: 700px;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.acsesuars__p22 {
+  margin-left: 200px;
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  color: #838383;
+}
+
+.intro__image222 {
+  width: 135px;
+}
+
+.footer {
+  width: 700px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  font-size: 13px;
+}
+.footer__ul {
+  margin-bottom: 10px;
+}
+.footer__language-bottom {
+  display: flex;
+  margin-top: 30px;
+  gap: 10px;
+  align-items: center;
+}
+.footer__socials {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+}
+
+.wrapper {
+  background-color: #eaeaea;
+  width: 1100px;
+  margin: auto;
+  font-family: "Montserrat";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #eaeaea;
+}/*# sourceMappingURL=style.css.map */
